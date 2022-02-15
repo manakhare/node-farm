@@ -1,5 +1,5 @@
 module.exports = (temp, product) => {
-    console.log(product);
+    //console.log(product);
     let output = temp.replace(/{%PRODUCTNAME%}/g, product.productName);
     output = output.replace(/{%IMAGE%}/g, product.image);
     output = output.replace(/{%PRICE%}/g, product.price);
